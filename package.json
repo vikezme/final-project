@@ -4,16 +4,18 @@
   "description": "blog",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "react": "^17.0.2",
-    "react-scripts": "^4.0.3",
     "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "cd api && npm start",
+    "start-server": "cd api && npm start",
+    "start-client": "cd client && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vikrant",
